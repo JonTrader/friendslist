@@ -1,6 +1,6 @@
 import React from 'react'
 import ShowList from './ShowList'
-import AddFriend from '/AddFriend'
+import AddFriend from './AddFriend'
 
 class FriendsContainer extends React.Component {
 
@@ -12,14 +12,16 @@ class FriendsContainer extends React.Component {
         name: 'Jon Montoya',
         friends: ['Boubacar', 'Naomi', 'Kheperah', 'Fransisco']
         };
+
+        this.addFriend = this.addFriend.bind(this);
         
     }
 
     addFriend(friend)
     {
         this.setState((state) =>({
-            friends: this.state.friends.concat([friend]
-                )}));
+            friends: state.friends.concat([friend])
+        }));
     }
 
     render()

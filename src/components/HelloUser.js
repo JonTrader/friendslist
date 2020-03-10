@@ -1,6 +1,6 @@
-import React from 'React'
+import React from 'react'
 
-class HelloUser extends React.component {
+class HelloUser extends React.Component {
 
 
 
@@ -28,7 +28,7 @@ class HelloUser extends React.component {
         <div>
             Hello {this.state.userName} <br />
             Change Username: 
-            <input type="text" value={this.state.userName} onChange={this.handleChange()}/>
+            <input type="text" value={this.state.userName} onChange={this.handleChange}/>
         </div>
         );
         

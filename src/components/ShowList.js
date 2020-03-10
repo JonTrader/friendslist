@@ -2,10 +2,6 @@ import React from 'react'
 
 class ShowList extends React.Component{
 
-    functionName(friend)
-    {
-        return(<li> {friend} </li>)
-    }
 
     render()
     {

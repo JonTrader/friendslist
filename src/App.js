@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import HelloUser from './components/HelloUser';
-import FriendsContainer from ',/components/FriendsContainer'
+import FriendsContainer from './components/FriendsContainer';
 
 
 function App() {
